@@ -1,0 +1,4 @@
+* An introductory MCTDH talk
+
+  In this talk I focus on the basics of MCTDH, with special emphasis on the PES representations.
+  I tried to use the plain Warsaw Beamer theme. Simple is better than complicated.
