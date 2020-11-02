@@ -1,0 +1,22 @@
+\frametitle{The Heidelberg implementation of MCTDH}
+  \justifying{
+  The actual implementation is written mainly in\img{fort.png}, with some small\img{c.png}contributions. The program has a modular structure with a very intuitive and consistent input syntax. Some sections of a POTFIT input file:}
+
+  \lstset{frameround=fttt}
+  \begin{lstlisting}[frame=trBL, breaklines, basicstyle=\tiny]
+    RUN-SECTION                                # System declaration
+       name = h2o.pfit                         # The file extension only
+    end-run-section                            # suggests a POTFIT calculation
+
+    OPERATOR-SECTION
+       pes = pjt2{binding}
+       vcut < 0.5                              # Define Hamiltonian
+    end-operator-section
+
+    PRIMITIVE-BASIS-SECTION
+       r1    sin    34  1.0   3.475
+       r2    sin    34  1.0   3.475            # Define coordinates
+       theta Leg/R  50   0    all  0.5 3.2     # and basis functions
+    end-primitive-basis-section
+  \end{lstlisting}
+
