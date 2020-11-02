@@ -11,6 +11,7 @@
 \usepackage{listings} % Support for code snippets
 \usepackage{caption}  % Use subfigures
 \usepackage{subcaption} % Use subfigures
+\usepackage{verbatim}
 
 \usetheme{Warsaw}
 
@@ -85,8 +86,8 @@
     \begin{itemize}
     \item Spectroscopy (e.g. IR transitions)
     \item Quantum tunneling
-    \item Strong vibronic coupling
-    \item Accurate ZPE determination
+    \item Vibronic coupling
+    \item ZPE determination
     \end{itemize}
   \end{exampleblock}
 \end{frame}
@@ -107,7 +108,7 @@ Given a parametric representation of the WF (\(\Psi\)), the optimal solution can
 
 \begin{frame}
   \frametitle{The Standard method}
-  Simplest representation of the WF\@: 
+  Most direct representation of the WF\@: 
 \begin{equation}
 	\Psi(q_i,\ldots, q_f, t) = \sum_{j_1=1}^{N_1}\cdots\sum_{j_f=1}^{N_f} C_{j_1\ldots j_f}(t)\prod_{\kappa=1}^f\varphi^{(\kappa)}_{j_{\kappa}}(q_{\kappa})
 	\label{stme}
@@ -118,7 +119,7 @@ the following EOMs:
 \begin{align}
 \begin{split}
 	i\dot{C}_L &= \sum_J \braket{\varphi_L|\hat{H}|\varphi_J}C_J \\
-	\mathbf{C}(t) &= e^{-i\mathbf{H}t}\mathbf{C}(0)
+	\bm{C}(t) &= e^{-i\bm{H}t}\bm{C}(0)
 \end{split}
 \end{align}
 \end{block}
@@ -129,7 +130,7 @@ where we have introduced the composite indexes \(J = (j_1,\ldots,j_f)\).
 \subsection{The Time-Dependent Hartree method}\label{tdh}
 
 \begin{frame}
-  \frametitle{A slightly more clever \emph{ansatz}:}
+  \frametitle{The Time-Dependent Hartree method}
   \justifying{}
   If we now consider time-dependent single-particle functions (SPFs):
 \begin{equation}
@@ -146,6 +147,7 @@ and use the DF-VP with arbitrary real constraints \(g_{\kappa} = i\braket{\varph
     \end{split}
   \end{equation}
 \end{block}
+with \(\mathcal{H}^{(\kappa)} = \braket{\Phi^{(\kappa)}|H|\Phi^{(\kappa)}}\).
 \end{frame}
 
 \begin{frame}
@@ -172,7 +174,7 @@ and use the DF-VP with arbitrary real constraints \(g_{\kappa} = i\braket{\varph
   \end{block}
   \begin{exampleblock}{Time-Dependent Hartree (HM)}<2->
     \begin{equation}
-      \Psi(q_1,\ldots, q_f, t) = A(t)\prod^f_{\kappa=1}\varphi_{\kappa}(q_{\kappa}, t)
+      \Psi(q_1,\ldots, q_f, t) = A(t)\prod^f_{\kappa=1}\varphi_{\kappa}^{(\kappa)}(q_{\kappa}, t)
     \end{equation}
   \end{exampleblock}
 
@@ -186,7 +188,8 @@ and use the DF-VP with arbitrary real constraints \(g_{\kappa} = i\braket{\varph
 
 \begin{frame} 
   \frametitle{MCTDH origins and distribution}
-  MCTDH was conceived by \textbf{Hans-Dieter Meyer} and coworkers from the University of Heidelberg, in the early nineties\@:
+  \justifying{
+  MCTDH was originally developed by Meyer and coworkers from the University of Heidelberg, in the early nineties\@:}
 \begin{center}
   \includegraphics[scale=0.5, cfbox=blue 1pt]{first_mctdh.png}
 \end{center}
@@ -267,7 +270,7 @@ i\dot{\varphi}^{(\kappa)}_j &= (1 - \textcolor{blue}{\hat{P}^{(\kappa)}})\sum_{k
 
 \begin{frame}
   \frametitle{MCTDH integration scheme}
-  The MCTDH-EOMs solution is costly due to the large amount of multidimensional integrals to solve. Since the \textbf{mean fields} are not strongly oscillating we can consider (CMF integration):
+  The MCTDH-EOMs solution is expensive due to the large amount of multidimensional integrals to solve. Since the \textbf{mean fields} are not strongly oscillating we can consider (CMF integration):
   \begin{block}{}
 \begin{align}
 \begin{split}
@@ -283,7 +286,7 @@ i\dot{\varphi}^{(f)}_j &= (1 - \hat{P}^{(f)})\{\hat{h}^{(f)}\varphi^{(f)}_j + \s
 \end{frame}
 \begin{frame}
   \frametitle{Mode combination}
-  Nothing stop us to group physical coordinates into logical particles:
+  Nothing prevents us from grouping physical coordinates into logical particles:
 \begin{align}
 \begin{split}
 	Q_{\kappa} &\equiv (q_{\kappa,1}, q_{\kappa,1}, \ldots, q_{\kappa,d}) \\
@@ -316,7 +319,28 @@ and:
 \begin{equation}
 	\textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t) = \sum_{i_{\mu}=1}^{N_{\mu}} c_{i_{\mu}}^{(\mu,k_{\mu})}\chi_{i_{\mu}}^{(\mu)}(q_{\mu})}
 \end{equation}
-  
+\end{frame}
+
+\begin{frame}
+  \frametitle{Multilayer MCTDH (3-layer case)}
+  \begin{minipage}{0.3\linewidth}
+    \tiny{
+\begin{equation*}
+	\Psi(q_1, q_2, q_3, t) = \sum_{j_{12}=1}^{n_{12}}\sum_{j_3 = 1}^{n_3}A_{j_{12}j_3}(t)\textcolor{red}{\varphi^{(12)}_{j_{12}}(q_1,q_2,t)}\varphi^{(3)}_{j_{3}}(q_3,t)
+\end{equation*}
+\begin{equation*}
+	\textcolor{red}{\varphi^{(12)}_{j_{12}}(q_1,q_2,t) = \sum_{k_1 = 1}^{n_1}\sum_{k_2=1}^{n_2}B_{k_1,k_2}^{(12,j_{12})}\prod_{\mu=1}^2} \textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t)}
+\end{equation*}
+\begin{equation*}
+	\textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t) = \sum_{i_{\mu}=1}^{N_{\mu}} c_{i_{\mu}}^{(\mu,k_{\mu})}\chi_{i_{\mu}}^{(\mu)}(q_{\mu})}
+\end{equation*}}
+\end{minipage}
+\hfill
+  \begin{minipage}{0.4\linewidth}
+  \begin{center}
+    \includegraphics[scale=.26]{mlmctdh.png}
+  \end{center}
+  \end{minipage}
 \end{frame}
 
 \subsection{Relaxation and block-improved relaxation}\label{relax}
@@ -346,16 +370,16 @@ The new algorithm can be derived by applying the time-independent variational pr
 \end{split}
 \end{align}
 \end{block}
-The second of these equations implies that we can obtain the updated SPFs simply by relaxation. The A-vector in the first equation can be obtained by using the Davidson diagonalization algorithm.
+The second of these equations implies that we can obtain the updated SPFs simply by relaxation. The A-vector in the first equation can be obtained by Davidson diagonalization algorithm.
   
 \end{frame}
 
-\section{The problem of the PES}\label{probpes}
+\section{Potential energy surface representations}\label{probpes}
 
-\begin{frame}
+\begin{frame}[fragile]
   \frametitle{The importance of the SOP form}
   \vspace{-.5cm}
-  The multidimensional integrals arising from the MCTDH-EOMs are the bottleneck of the propagation. To address this issue, we enforce SOP form to \textbf{all quantities}:
+  The multidimensional integrals arising from the MCTDH-EOMs are the bottleneck of the propagation. To address this issue, we impose SOP form to \textbf{all quantities}:
 \begin{align}
 \begin{split}
 \hat{O} &= \sum_{\alpha=1}^S c_{\alpha} \prod_{\kappa=1}^f \hat{o}_{\alpha}^{(\kappa)} \\
@@ -364,7 +388,7 @@ The second of these equations implies that we can obtain the updated SPFs simply
 \end{align}
 \begin{block}{}
   \begin{itemize}
-  \item KEO already in the desired form
+  \item KEO already in the desired form (\verb|TANA| and \verb|TNUM| software)
   \item PES might be challenging to transform
   \end{itemize}
 \end{block}
@@ -409,7 +433,7 @@ which can be contrasted with the algebraic and tensor forms:
 
 \begin{frame}
   \frametitle{Tensor decomposition algorithms}
-  There is a number of tensor decomposition algorithms currently in use (e.g. POTFIT, MGPF, MCPF, MLPF), however, they are all limited to product grids. The \textbf{SOP-FBR} method was developed as an alternative to the former:
+  There is a number of tensor decomposition algorithms currently in use (e.g. POTFIT, MGPF, MCPF, MLPF), however, they are all limited by the size of the grids. The \textbf{SOP-FBR} method was developed as an alternative to the former:
 \begin{align}
   \label{sopfbr}
   \begin{split}
@@ -422,7 +446,7 @@ This is a fully analytical SOP form, differentiable \emph{ad infinitum}, and tha
 \end{frame}
 
 \begin{frame}
-  \frametitle{\normalsize POTFIT compared to HOOI}
+  \frametitle{\normalsize The POTFIT and HOOI algorithms}
   \vspace{-1cm}
 \begin{columns}
     \begin{column}{0.6\textwidth}
@@ -462,19 +486,55 @@ This is a fully analytical SOP form, differentiable \emph{ad infinitum}, and tha
 \begin{block}{}
     \begin{itemize}
     	\item \footnotesize \(EVD(\mathbf{V}_{(k)}^{\dagger} \cdot \mathbf{V}_{(k)}) \equiv SVD(\mathbf{V}_{(k)})\) !
-    	\item \footnotesize POTFIT optimizes the SPPs in a slightly different manner: 
+    	\item \footnotesize POTFIT optimizes the factor matrices in a slightly different manner: 
     	\[\mathbf{\tilde{v}}_j^{(\kappa)} = \mathbf{v}_j^{(\kappa)} + \sum_{l=n_{\kappa}+1}^{N_{\kappa}}\mu_{jl}^{(\kappa)}\mathbf{v}^{(\kappa)}_{l}\]
     \end{itemize}
 \end{block}
 \vspace{-1cm}
 \end{frame}
 
-\section{Example applications}\label{applic}
+\begin{frame}\frametitle{\normalsize The SOP-FBR algorithm}
+  \centering
+  \scalebox{.65}{
+     \begin{algorithm*}[H]
+      \SetAlgoLined
+      \SetKwProg{Fn}{Function}{:}{\KwRet \(\rho\)}
+      \SetKwFunction{Fosp}{sopfbr}
+      \SetKwFunction{Fgen}{geogen}
+      \SetKwFunction{Ftar}{target}
+      \SetKwFunction{Fcheb}{chebyshev}
+      \SetKwFunction{Fspl}{split}
+      \SetKwFunction{Fconc}{concatenate}
+      \KwResult{\(x_{opt}\)}
+      Input: \(x_{guess}\) guess parameters, \(D\) dimensionality, \(M\) number of basis functions, \(T\) degree of Chebyshev series, \(N_g\) number of geometries, \(\epsilon\) threshold \;
+      \(k \leftarrow 0\)\;
+      \(x_0 \leftarrow x_{guess}\)\;
+      \(G_{ab}, E_{ab} \leftarrow \text{\Fgen}(N_g)\)\;
+
+      \Fn{\Ftar(\(B, C\))}{
+          \(E_{sop} \leftarrow \text{\Fosp}(B, C)\)\;
+          \(\rho \leftarrow \lVert E_{ab} - E_{sop} \lVert_{L_2}\)\;
+      }
+      \Repeat{\(\rho < \epsilon \lor k < N\)}{
+          \(B, C \leftarrow \text{\Fspl}(x_{k}, T \times M)\)\;
+          \(B \leftarrow \text{BFGS}(\text{\Ftar}(B,\bar{C}))\)\;
+          \(\rho, C \leftarrow \text{Powell}(\text{\Ftar}(\bar{B},C))\)\;
+          \(x_{k+1} \leftarrow \text{\Fconc}(B, C)\)\;
+          \(k \leftarrow k + 1\)\;
+      }
+      \(x_{opt} \leftarrow x_k\)
+      \caption{SOP-FBR}\label{algo_10}
+    \end{algorithm*} 
+    }
+    \vspace{-0.4cm}
+  \end{frame}
+  
+\section{Code structure and example applications}\label{applic}
 
 \begin{frame}[fragile]
   \frametitle{The Heidelberg implementation of MCTDH}
   \justifying{
-  The actual implementation is written mainly in\img{fort.png}, with some small\img{c.png}contributions. The program has a modular structure with a very intuitive and consistent input syntax. Some sections of a POTFIT input file:}
+  The actual implementation is written mainly in\img{fort.png}, with some small\img{c.png}and\img{python.png}contributions. The program has a modular structure with a very intuitive and consistent input syntax. Some sections of a POTFIT input file:}
   
   \lstset{frameround=fttt}
   \begin{lstlisting}[frame=trBL, breaklines, basicstyle=\tiny]

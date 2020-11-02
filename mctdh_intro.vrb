@@ -1,6 +1,6 @@
 \frametitle{The Heidelberg implementation of MCTDH}
   \justifying{
-  The actual implementation is written mainly in\img{fort.png}, with some small\img{c.png}contributions. The program has a modular structure with a very intuitive and consistent input syntax. Some sections of a POTFIT input file:}
+  The actual implementation is written mainly in\img{fort.png}, with some small\img{c.png}and\img{python.png}contributions. The program has a modular structure with a very intuitive and consistent input syntax. Some sections of a POTFIT input file:}
 
   \lstset{frameround=fttt}
   \begin{lstlisting}[frame=trBL, breaklines, basicstyle=\tiny]

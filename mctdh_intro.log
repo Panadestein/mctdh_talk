@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.12)  2 NOV 2020 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.12)  2 NOV 2020 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -827,6 +827,12 @@ Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 \c@subfigure=\count327
 \c@subtable=\count328
 )
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks49
+\verbatim@line=\toks50
+\verbatim@in@stream=\read3
+)
 (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty
 (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
 (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty
@@ -843,22 +849,22 @@ File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 LaTeX Warning: Label `mctdh_eom' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -901,12 +907,12 @@ LaTeX Font Info:    ... okay on input line 66.
 \scratchbox=\box86
 \nofMPsegments=\count331
 \nofMParguments=\count332
-\everyMPshowfont=\toks49
+\everyMPshowfont=\toks51
 \MPscratchCnt=\count333
 \MPscratchDim=\dimen309
 \MPnumerator=\count334
 \makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks50
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -918,7 +924,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box87
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 67.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -931,66 +937,66 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count336
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
 
 (./mctdh_intro.out) (./mctdh_intro.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 66.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 66.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 67.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 67.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 6
-6.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 
-66.
+67.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 66.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 66.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 66.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 66.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 66.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 66.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 66.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 66.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 66.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 66.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 66.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 66.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 66.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 66.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 66.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 66.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 66.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 66.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 67.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 6
-6.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 6
-6.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 66.
+ut line 67.
 
 (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
 .dict
@@ -1016,7 +1022,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 66.
+LaTeX Info: Redefining \selectfont on input line 67.
 \c@lstlisting=\count337
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -1024,12 +1030,12 @@ Package caption Info: End \AtBeginDocument code.
 <./Figures/trex_logo.png, id=66, 991.94118pt x 403.86177pt>
 File: ./Figures/trex_logo.png Graphic file (type png)
 <use ./Figures/trex_logo.png>
-Package pdftex.def Info: ./Figures/trex_logo.png  used on input line 68.
+Package pdftex.def Info: ./Figures/trex_logo.png  used on input line 69.
 (pdftex.def)             Requested size: 46.94687pt x 19.10968pt.
 <./Figures/ut_logo.pdf, id=67, 57.90132pt x 28.89948pt>
 File: ./Figures/ut_logo.pdf Graphic file (type pdf)
 <use ./Figures/ut_logo.pdf>
-Package pdftex.def Info: ./Figures/ut_logo.pdf  used on input line 68.
+Package pdftex.def Info: ./Figures/ut_logo.pdf  used on input line 69.
 (pdftex.def)             Requested size: 56.9055pt x 28.40373pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1042,20 +1048,20 @@ Package pdftex.def Info: ./Figures/ut_logo.pdf  used on input line 68.
 ] [5
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 104
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 104
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 104.
+ut line 105.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1063,14 +1069,10 @@ thkerncmss.
 ) [6
 
 ]
-
-LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/m/n' instead on input line 127.
-
 [7
 
 ]
-Overfull \hbox (11.45856pt too wide) in paragraph at lines 149--149
+Overfull \hbox (11.45856pt too wide) in paragraph at lines 151--151
 \OT1/cmss/m/n/10.95 and use the DF-VP with ar-bi-trary real con-straints $\OT1/
 mathkerncmss/m/sl/10.95 g[] \OT1/cmss/m/n/10.95 = \OT1/mathkerncmss/m/sl/10.95 
 i []$\OT1/cmss/m/n/10.95 ,
@@ -1089,25 +1091,25 @@ i []$\OT1/cmss/m/n/10.95 ,
 ] [13
 
 ]
-<./Figures/first_mctdh.png, id=576, 397.485pt x 81.6651pt>
+<./Figures/first_mctdh.png, id=578, 397.485pt x 81.6651pt>
 File: ./Figures/first_mctdh.png Graphic file (type png)
 <use ./Figures/first_mctdh.png>
-Package pdftex.def Info: ./Figures/first_mctdh.png  used on input line 203.
+Package pdftex.def Info: ./Figures/first_mctdh.png  used on input line 206.
 (pdftex.def)             Requested size: 198.742pt x 40.83244pt.
-<./Figures/manthe.png, id=578, 1027.84pt x 244.915pt>
+<./Figures/manthe.png, id=580, 1027.84pt x 244.915pt>
 File: ./Figures/manthe.png Graphic file (type png)
 <use ./Figures/manthe.png>
-Package pdftex.def Info: ./Figures/manthe.png  used on input line 203.
+Package pdftex.def Info: ./Figures/manthe.png  used on input line 206.
 (pdftex.def)             Requested size: 71.95615pt x 17.1458pt.
-<./Figures/dieter.jpg, id=579, 977.5722pt x 524.6802pt>
+<./Figures/dieter.jpg, id=581, 977.5722pt x 524.6802pt>
 File: ./Figures/dieter.jpg Graphic file (type jpg)
 <use ./Figures/dieter.jpg>
-Package pdftex.def Info: ./Figures/dieter.jpg  used on input line 203.
+Package pdftex.def Info: ./Figures/dieter.jpg  used on input line 206.
 (pdftex.def)             Requested size: 68.43704pt x 36.73135pt.
-<./Figures/graham.png, id=580, 301.125pt x 88.33pt>
+<./Figures/graham.png, id=582, 301.125pt x 88.33pt>
 File: ./Figures/graham.png Graphic file (type png)
 <use ./Figures/graham.png>
-Package pdftex.def Info: ./Figures/graham.png  used on input line 203.
+Package pdftex.def Info: ./Figures/graham.png  used on input line 206.
 (pdftex.def)             Requested size: 60.22392pt x 17.66568pt.
  [14
 
@@ -1121,7 +1123,7 @@ igures/graham.png>] [15
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.266 \end{frame}
+l.269 \end{frame}
                   [17
 
 ] [18
@@ -1130,47 +1132,86 @@ l.266 \end{frame}
 
 ] [20
 
-] [21
+]
+Overfull \hbox (84.20294pt too wide) detected at line 344
+\OT1/cmss/m/n/6 	(\OT1/mathkerncmss/m/sl/6 q[]\OML/cmm/m/it/6 ; \OT1/mathkerncm
+ss/m/sl/6 q[]\OML/cmm/m/it/6 ; \OT1/mathkerncmss/m/sl/6 q[]\OML/cmm/m/it/6 ; \O
+T1/mathkerncmss/m/sl/6 t\OT1/cmss/m/n/6 ) = [] [] \OT1/mathkerncmss/m/sl/6 A[]\
+OT1/cmss/m/n/6 (\OT1/mathkerncmss/m/sl/6 t\OT1/cmss/m/n/6 )[][]\OML/cmm/m/it/6 
+'[]\OT1/cmss/m/n/6 (\OT1/mathkerncmss/m/sl/6 q[]\OML/cmm/m/it/6 ; \OT1/mathkern
+cmss/m/sl/6 t\OT1/cmss/m/n/6 )
+ []
 
-] [22
 
-] (./mctdh_intro.toc) [23
+Overfull \hbox (55.44598pt too wide) detected at line 344
+[][][][]
+ []
+
+
+Overfull \hbox (11.20042pt too wide) detected at line 344
+[][]
+ []
+
+<./Figures/mlmctdh.png, id=820, 398.99063pt x 412.54124pt>
+File: ./Figures/mlmctdh.png Graphic file (type png)
+<use ./Figures/mlmctdh.png>
+Package pdftex.def Info: ./Figures/mlmctdh.png  used on input line 344.
+(pdftex.def)             Requested size: 103.7351pt x 107.2582pt.
+[21
+
+ <./Figures/mlmctdh.png>] [22
+
+] [23
+
+] (./mctdh_intro.toc) [24
 
 ]
-[24
+(./mctdh_intro.vrb) [25
 
-] [25
+] [26
 
 ]
-<./Figures/tuck.pdf, id=991, 1213.53375pt x 596.2275pt>
+<./Figures/tuck.pdf, id=1031, 1213.53375pt x 596.2275pt>
 File: ./Figures/tuck.pdf Graphic file (type pdf)
 <use ./Figures/tuck.pdf>
-Package pdftex.def Info: ./Figures/tuck.pdf  used on input line 408.
+Package pdftex.def Info: ./Figures/tuck.pdf  used on input line 432.
 (pdftex.def)             Requested size: 121.36047pt x 59.62624pt.
- [26
 
- <./Figures/tuck.pdf>] [27
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
+(Font)              using `OT1/cmss/m/n' instead on input line 432.
+
+[27
+
+ <./Figures/tuck.pdf>] [28
 
 ]
-Overfull \hbox (9.26299pt too wide) detected at line 470
+Overfull \hbox (9.26299pt too wide) detected at line 494
 [][][] $[]$[][][][][][]  [][] $[]$[][][][][][] 
  []
 
-[28
+[29
 
-] (./mctdh_intro.toc) [29
+] [30
+
+] (./mctdh_intro.toc) [31
 
 ] (./mctdh_intro.vrb
-<./Figures/fort.png, id=1141, 1311.90125pt x 349.305pt>
+<./Figures/fort.png, id=1212, 1311.90125pt x 349.305pt>
 File: ./Figures/fort.png Graphic file (type png)
 <use ./Figures/fort.png>
 Package pdftex.def Info: ./Figures/fort.png  used on input line 3.
 (pdftex.def)             Requested size: 40.79663pt x 10.86244pt.
-<./Figures/c.png, id=1142, 863.225pt x 992.70876pt>
+<./Figures/c.png, id=1213, 863.225pt x 992.70876pt>
 File: ./Figures/c.png Graphic file (type png)
 <use ./Figures/c.png>
 Package pdftex.def Info: ./Figures/c.png  used on input line 3.
 (pdftex.def)             Requested size: 11.81503pt x 13.5873pt.
+<./Figures/python.png, id=1214, 526.96875pt x 524.71031pt>
+File: ./Figures/python.png Graphic file (type png)
+<use ./Figures/python.png>
+Package pdftex.def Info: ./Figures/python.png  used on input line 3.
+(pdftex.def)             Requested size: 13.65341pt x 13.5949pt.
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 7.
 
@@ -1194,57 +1235,57 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textless' on input line 13.
 
-) [30
+) [32
 
- <./Figures/fort.png (PNG copy)> <./Figures/c.png>]
-<./Figures/pyra.png, id=1177, 608.2725pt x 456.70625pt>
+ <./Figures/fort.png (PNG copy)> <./Figures/c.png> <./Figures/python.png>]
+<./Figures/pyra.png, id=1251, 608.2725pt x 456.70625pt>
 File: ./Figures/pyra.png Graphic file (type png)
 <use ./Figures/pyra.png>
-Package pdftex.def Info: ./Figures/pyra.png  used on input line 520.
+Package pdftex.def Info: ./Figures/pyra.png  used on input line 580.
 (pdftex.def)             Requested size: 122.91406pt x 92.28737pt.
-<./Figures/hh.png, id=1178, 615.29875pt x 455.7025pt>
+<./Figures/hh.png, id=1252, 615.29875pt x 455.7025pt>
 File: ./Figures/hh.png Graphic file (type png)
 <use ./Figures/hh.png>
-Package pdftex.def Info: ./Figures/hh.png  used on input line 520.
+Package pdftex.def Info: ./Figures/hh.png  used on input line 580.
 (pdftex.def)             Requested size: 122.91406pt x 91.02762pt.
- [31
+[33
 
  <./Figures/pyra.png> <./Figures/hh.png>]
-<./Figures/appli.jpg, id=1217, 719.68875pt x 1084.05pt>
+<./Figures/appli.jpg, id=1290, 719.68875pt x 1084.05pt>
 File: ./Figures/appli.jpg Graphic file (type jpg)
 <use ./Figures/appli.jpg>
-Package pdftex.def Info: ./Figures/appli.jpg  used on input line 545.
+Package pdftex.def Info: ./Figures/appli.jpg  used on input line 605.
 (pdftex.def)             Requested size: 43.80011pt x 65.96649pt.
 
-Overfull \hbox (13.06926pt too wide) in paragraph at lines 545--545
+Overfull \hbox (13.06926pt too wide) in paragraph at lines 605--605
 [][] 
  []
 
-<./Figures/mctdh_rev.png, id=1218, 734.745pt x 987.69pt>
+<./Figures/mctdh_rev.png, id=1291, 734.745pt x 987.69pt>
 File: ./Figures/mctdh_rev.png Graphic file (type png)
 <use ./Figures/mctdh_rev.png>
-Package pdftex.def Info: ./Figures/mctdh_rev.png  used on input line 545.
+Package pdftex.def Info: ./Figures/mctdh_rev.png  used on input line 605.
 (pdftex.def)             Requested size: 43.80011pt x 58.86699pt.
 
-Overfull \hbox (13.06926pt too wide) in paragraph at lines 545--545
+Overfull \hbox (13.06926pt too wide) in paragraph at lines 605--605
 [][] 
  []
 
-[32
+[34
 
- <./Figures/appli.jpg> <./Figures/mctdh_rev.png>] [33
+ <./Figures/appli.jpg> <./Figures/mctdh_rev.png>] [35
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 553.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 553.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 613.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
  (./mctdh_intro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 553.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 553.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 613.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 613.
 Package rerunfilecheck Info: File `mctdh_intro.out' has not changed.
-(rerunfilecheck)             Checksum: 058C12EEE140D196FA3D80F63E6BBEAD;696.
+(rerunfilecheck)             Checksum: A75D285785EC273DBC8D51D090D2F166;733.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1254,39 +1295,43 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23601 strings out of 480478
- 434052 string characters out of 5905958
- 785233 words of memory out of 5000000
- 38930 multiletter control sequences out of 15000+600000
- 552266 words of font info for 85 fonts, out of 8000000 for 9000
+ 23693 strings out of 480478
+ 435449 string characters out of 5905958
+ 786986 words of memory out of 5000000
+ 39006 multiletter control sequences out of 15000+600000
+ 554707 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,22n,106p,778b,1452s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-i12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/tex
-mf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on mctdh_intro.pdf (33 pages, 1016517 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/
+texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
+ex9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+bx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfs
+o0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb></usr
+/share/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
+Output written on mctdh_intro.pdf (35 pages, 1103579 bytes).
 PDF statistics:
- 1387 PDF objects out of 1440 (max. 8388607)
- 1260 compressed objects within 13 object streams
- 103 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1473 PDF objects out of 1728 (max. 8388607)
+ 1335 compressed objects within 14 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 282 words of extra memory for PDF output out of 10000 (max. 10000000)
 
