@@ -495,7 +495,29 @@ This is a fully analytical SOP form, differentiable \emph{ad infinitum}, and tha
 
 \begin{frame}\frametitle{\normalsize The SOP-FBR algorithm}
   \centering
-  \scalebox{.65}{
+  \hspace{-1.4cm}
+  \scalebox{.55}{
+    \begin{algorithm}[H]
+      \SetAlgoLined
+      \SetKwProg{Fnb}{Function}{:}{\KwRet \(E_{sop}\)}
+      \SetKwFunction{Fosp}{sopfbr}
+      \SetKwFunction{Fcheb}{chebyshev}
+      \Fnb{\Fosp(\(B, C\))}{
+      		\(l \leftarrow 0\)\;
+      		\For{\(k \leftarrow 0\) \KwTo D}{
+      			\For{\(j \leftarrow 0\) \KwTo \(M[k]\)}{
+      				\For{\(i \leftarrow 0\) \KwTo \(G_{ab}[:, k]\)}{
+      				 	\(U_{ij}^{(k)} \leftarrow \text{\Fcheb}(G_{ab}[i, k], B(l:l+T[k]))\)\;
+      				}
+      			\(l \leftarrow l + T[k]\)\;
+      			}
+
+      		}
+      		\(E_{sop} \leftarrow C \times_1 U^{(1)} \cdots \times_D U^{(D)} \)\;
+      }
+    \end{algorithm}
+  }
+  \scalebox{.55}{
      \begin{algorithm*}[H]
       \SetAlgoLined
       \SetKwProg{Fn}{Function}{:}{\KwRet \(\rho\)}
@@ -525,7 +547,8 @@ This is a fully analytical SOP form, differentiable \emph{ad infinitum}, and tha
       \(x_{opt} \leftarrow x_k\)
       \caption{SOP-FBR}\label{algo_10}
     \end{algorithm*} 
-    }
+  }
+  \hspace{-1.2cm}
     \vspace{-0.4cm}
   \end{frame}
   
@@ -585,22 +608,32 @@ This is a fully analytical SOP form, differentiable \emph{ad infinitum}, and tha
   \frametitle{Bibliography}
   \centering
   \begin{minipage}{.6\linewidth}
-Gatti, F., \emph{et al.} Applications of quantum dynamics in chemistry. Vol. 98.
-  Springer, 2017.
+\small{Gatti, F., \emph{et al.} Applications of quantum dynamics in chemistry. Vol. 98.
+  Springer, 2017.}
 \end{minipage}
 \hspace{1cm}
   \begin{minipage}{.1\linewidth}
-\includegraphics[width=4em]{appli.jpg}
+\includegraphics[width=3em]{appli.jpg}
 \end{minipage}
 
-\vspace{1cm}
+\vspace{.5cm}
 
   \begin{minipage}{.6\linewidth}
-Beck, M.H., \emph{et al.} The multiconfiguration time-dependent Hartree (MCTDH) method: a highly efficient algorithm for propagating wavepackets. Physics reports 324.1 (2000): 1--105. 
+\small{Meyer, H.D. ``Introduction to MCTDH.'' Lecture Notes (2011)}
+ \end{minipage}
+ \hspace{1cm}
+   \begin{minipage}{.1\linewidth}
+ \includegraphics[width=3em]{int_dan.pdf}
+\end{minipage}
+  
+\vspace{.5cm}
+
+  \begin{minipage}{.6\linewidth}
+\small{Beck, M.H., \emph{et al.} The multiconfiguration time-dependent Hartree (MCTDH) method: a highly efficient algorithm for propagating wavepackets. Physics reports 324.1 (2000): 1--105.}
 \end{minipage}
 \hspace{1cm}
   \begin{minipage}{.1\linewidth}
-\includegraphics[width=4em]{mctdh_rev.png}
+\includegraphics[width=3em]{mctdh_rev.png}
   \end{minipage}
 \end{frame}
 
