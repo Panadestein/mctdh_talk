@@ -5,5 +5,5 @@
 \beamer@subsectionintoc {2}{1}{EOMs}{15}{0}{2}
 \beamer@subsectionintoc {2}{2}{Relaxation and block-improved relaxation}{22}{0}{2}
 \beamer@sectionintoc {3}{Potential energy surface representations}{24}{0}{3}
-\beamer@subsectionintoc {3}{1}{Tensor decomposition algorithms}{26}{0}{3}
-\beamer@sectionintoc {4}{Code structure and example applications}{31}{0}{4}
+\beamer@subsectionintoc {3}{1}{Tensor decomposition algorithms}{27}{0}{3}
+\beamer@sectionintoc {4}{Code structure and example applications}{32}{0}{4}

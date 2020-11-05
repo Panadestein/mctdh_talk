@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.12)  3 NOV 2020 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.12)  5 NOV 2020 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1143,12 +1143,12 @@ cmss/m/sl/6 t\OT1/cmss/m/n/6 )
  []
 
 
-Overfull \hbox (55.44598pt too wide) detected at line 344
+Overfull \hbox (63.13164pt too wide) detected at line 344
 [][][][]
  []
 
 
-Overfull \hbox (11.20042pt too wide) detected at line 344
+Overfull \hbox (18.88608pt too wide) detected at line 344
 [][]
  []
 
@@ -1168,10 +1168,12 @@ Package pdftex.def Info: ./Figures/mlmctdh.png  used on input line 344.
 ]
 (./mctdh_intro.vrb) [25
 
-] [26
+] (./mctdh_intro.vrb) [26
+
+] [27
 
 ]
-<./Figures/tuck.pdf, id=1031, 1213.53375pt x 596.2275pt>
+<./Figures/tuck.pdf, id=1062, 1213.53375pt x 596.2275pt>
 File: ./Figures/tuck.pdf Graphic file (type pdf)
 <use ./Figures/tuck.pdf>
 Package pdftex.def Info: ./Figures/tuck.pdf  used on input line 432.
@@ -1181,33 +1183,33 @@ Package pdftex.def Info: ./Figures/tuck.pdf  used on input line 432.
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 (Font)              using `OT1/cmss/m/n' instead on input line 432.
 
-[27
+[28
 
- <./Figures/tuck.pdf>] [28
+ <./Figures/tuck.pdf>] [29
 
 ]
 Overfull \hbox (9.26299pt too wide) detected at line 494
 [][][] $[]$[][][][][][]  [][] $[]$[][][][][][] 
  []
 
-[29
+[30
 
-] [30
+] [31
 
-] (./mctdh_intro.toc) [31
+] (./mctdh_intro.toc) [32
 
 ] (./mctdh_intro.vrb
-<./Figures/fort.png, id=1212, 1311.90125pt x 349.305pt>
+<./Figures/fort.png, id=1244, 1311.90125pt x 349.305pt>
 File: ./Figures/fort.png Graphic file (type png)
 <use ./Figures/fort.png>
 Package pdftex.def Info: ./Figures/fort.png  used on input line 3.
 (pdftex.def)             Requested size: 40.79663pt x 10.86244pt.
-<./Figures/c.png, id=1213, 863.225pt x 992.70876pt>
+<./Figures/c.png, id=1245, 863.225pt x 992.70876pt>
 File: ./Figures/c.png Graphic file (type png)
 <use ./Figures/c.png>
 Package pdftex.def Info: ./Figures/c.png  used on input line 3.
 (pdftex.def)             Requested size: 11.81503pt x 13.5873pt.
-<./Figures/python.png, id=1214, 526.96875pt x 524.71031pt>
+<./Figures/python.png, id=1246, 526.96875pt x 524.71031pt>
 File: ./Figures/python.png Graphic file (type png)
 <use ./Figures/python.png>
 Package pdftex.def Info: ./Figures/python.png  used on input line 3.
@@ -1235,68 +1237,68 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textless' on input line 13.
 
-) [32
+) [33
 
  <./Figures/fort.png (PNG copy)> <./Figures/c.png> <./Figures/python.png>]
-<./Figures/pyra.png, id=1251, 608.2725pt x 456.70625pt>
+<./Figures/pyra.png, id=1282, 608.2725pt x 456.70625pt>
 File: ./Figures/pyra.png Graphic file (type png)
 <use ./Figures/pyra.png>
 Package pdftex.def Info: ./Figures/pyra.png  used on input line 603.
 (pdftex.def)             Requested size: 122.91406pt x 92.28737pt.
-<./Figures/hh.png, id=1252, 615.29875pt x 455.7025pt>
+<./Figures/hh.png, id=1283, 615.29875pt x 455.7025pt>
 File: ./Figures/hh.png Graphic file (type png)
 <use ./Figures/hh.png>
 Package pdftex.def Info: ./Figures/hh.png  used on input line 603.
 (pdftex.def)             Requested size: 122.91406pt x 91.02762pt.
-[33
+[34
 
  <./Figures/pyra.png> <./Figures/hh.png>]
-<./Figures/appli.jpg, id=1290, 719.68875pt x 1084.05pt>
+<./Figures/appli.jpg, id=1321, 719.68875pt x 1084.05pt>
 File: ./Figures/appli.jpg Graphic file (type jpg)
 <use ./Figures/appli.jpg>
 Package pdftex.def Info: ./Figures/appli.jpg  used on input line 638.
-(pdftex.def)             Requested size: 32.85008pt x 49.47487pt.
+(pdftex.def)             Requested size: 36.13512pt x 54.4207pt.
 
-Overfull \hbox (2.11923pt too wide) in paragraph at lines 638--638
+Overfull \hbox (5.40427pt too wide) in paragraph at lines 638--638
 [][] 
  []
 
-<./Figures/int_dan.pdf, id=1291, 597.50829pt x 845.0471pt>
+<./Figures/int_dan.pdf, id=1322, 597.50829pt x 845.0471pt>
 File: ./Figures/int_dan.pdf Graphic file (type pdf)
 <use ./Figures/int_dan.pdf>
 Package pdftex.def Info: ./Figures/int_dan.pdf  used on input line 638.
-(pdftex.def)             Requested size: 32.85008pt x 46.45839pt.
+(pdftex.def)             Requested size: 29.56503pt x 41.80353pt.
 
-Overfull \hbox (2.11923pt too wide) in paragraph at lines 638--638
+Overfull \hbox (5.63417pt too wide) in paragraph at lines 638--638
 [][] 
  []
 
-<./Figures/mctdh_rev.png, id=1292, 734.745pt x 987.69pt>
+<./Figures/mctdh_rev.png, id=1323, 734.745pt x 987.69pt>
 File: ./Figures/mctdh_rev.png Graphic file (type png)
 <use ./Figures/mctdh_rev.png>
 Package pdftex.def Info: ./Figures/mctdh_rev.png  used on input line 638.
-(pdftex.def)             Requested size: 32.85008pt x 44.15778pt.
+(pdftex.def)             Requested size: 29.56503pt x 39.742pt.
 
-Overfull \hbox (2.11923pt too wide) in paragraph at lines 638--638
+Overfull \hbox (5.63417pt too wide) in paragraph at lines 638--638
 [][] 
  []
 
-[34
+[35
 
  <./Figures/appli.jpg> <./Figures/int_dan.pdf> <./Figures/mctdh_rev.png>]
-[35
+[36
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 646.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 646.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 648.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 648.
  (./mctdh_intro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 646.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 646.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 648.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 648.
 Package rerunfilecheck Info: File `mctdh_intro.out' has not changed.
-(rerunfilecheck)             Checksum: A75D285785EC273DBC8D51D090D2F166;733.
+(rerunfilecheck)             Checksum: 00A20DAEF59B6D876C22549B1ABF5EF0;733.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1306,8 +1308,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23734 strings out of 480478
- 436136 string characters out of 5905958
+ 23738 strings out of 480478
+ 436187 string characters out of 5905958
  786986 words of memory out of 5000000
  39043 multiletter control sequences out of 15000+600000
  560490 words of font info for 108 fonts, out of 8000000 for 9000
@@ -1343,10 +1345,10 @@ st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1
 c/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
 r/sfso0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb>
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on mctdh_intro.pdf (35 pages, 1321718 bytes).
+Output written on mctdh_intro.pdf (36 pages, 1325581 bytes).
 PDF statistics:
- 1506 PDF objects out of 1728 (max. 8388607)
- 1361 compressed objects within 14 object streams
- 108 named destinations out of 1000 (max. 500000)
+ 1539 PDF objects out of 1728 (max. 8388607)
+ 1393 compressed objects within 14 object streams
+ 110 named destinations out of 1000 (max. 500000)
  287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

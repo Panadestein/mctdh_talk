@@ -157,7 +157,7 @@ with \(\mathcal{H}^{(\kappa)} = \braket{\Phi^{(\kappa)}|H|\Phi^{(\kappa)}}\).
     Its application is largely limited due to the \textbf{curse of dimensionality}. Only systems up to four atoms (6D) can be addressed in practice.
   \end{exampleblock}
   \begin{block}{Time-Dependent Hartree}
-    A better approach, but physically inaccurate. The \textbf{nuclear correlation} is harder to retrieve
+    A simpler approach, but physically inaccurate. The \textbf{nuclear correlation} is harder to retrieve
     than the electronic correlation due to the nuclei's larger mass. The character of the nuclear WF is inherently \textbf{multiconfigurational}. 
   \end{block}
 \end{frame}
@@ -167,7 +167,7 @@ with \(\mathcal{H}^{(\kappa)} = \braket{\Phi^{(\kappa)}|H|\Phi^{(\kappa)}}\).
 \begin{frame}
   \frametitle{Ansätze comparison}
   \vspace{-.3cm}
-  \begin{block}{Standard Method (CI)}
+  \begin{block}{Standard Method (FCI)}
     \begin{equation}
       \Psi(q_i,\ldots, q_f, t) = \sum_{j_1=1}^{N_1}\cdots\sum_{j_f=1}^{N_f} C_{j_1\ldots j_f}(t)\prod_{\kappa=1}^f\varphi^{(\kappa)}_{j_{\kappa}}(q_{\kappa})
     \end{equation}
@@ -274,7 +274,7 @@ i\dot{\varphi}^{(\kappa)}_j &= (1 - \textcolor{blue}{\hat{P}^{(\kappa)}})\sum_{k
   \begin{block}{}
 \begin{align}
 \begin{split}
-i\dot{A}_J &= \sum_L \bar{\mathcal{K}}_{JL}A_J \\
+i\dot{A}_J &= \sum_L \bar{\mathcal{K}}_{JL} A_L \\
 i\dot{\varphi}^{(1)}_j &= (1 - \hat{P}^{(1)})\{\hat{h}^{(1)}\varphi^{(1)}_j + \sum_{k,l=1}^{n_{1}}({\bm{\rho}^{(1)}}^{-1})_{jk}\braket{\bar{H}_R}_{kl}^{(1)}\varphi^{(1)}_l\} \\
            &\vdots \\
 i\dot{\varphi}^{(f)}_j &= (1 - \hat{P}^{(f)})\{\hat{h}^{(f)}\varphi^{(f)}_j + \sum_{k,l=1}^{n_{f}}({\bm{\rho}^{(f)}}^{-1})_{jk}\braket{\bar{H}_R}_{kl}^{(f)}\varphi^{(f)}_l\}  
@@ -313,11 +313,11 @@ We can propagate the multidimensional SPFs with MCTDH itself!
 \end{equation}
 where we have introduced:
 \begin{equation}
-	\textcolor{red}{\varphi^{(12)}_{j_{12}}(q_1,q_2,t) = \sum_{k_1 = 1}^{n_1}\sum_{k_2=1}^{n_2}B_{k_1,k_2}^{(12,j_{12})}\prod_{\mu=1}^2} \textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t)}
+	\textcolor{red}{\varphi^{(12)}_{j_{12}}(q_1,q_2,t) = \sum_{k_1 = 1}^{n_1}\sum_{k_2=1}^{n_2}B_{k_1,k_2}^{(12,j_{12})}(t)\prod_{\mu=1}^2} \textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t)}
 \end{equation}
 and:
 \begin{equation}
-	\textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t) = \sum_{i_{\mu}=1}^{N_{\mu}} c_{i_{\mu}}^{(\mu,k_{\mu})}\chi_{i_{\mu}}^{(\mu)}(q_{\mu})}
+	\textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t) = \sum_{i_{\mu}=1}^{N_{\mu}} c_{i_{\mu}}^{(\mu,k_{\mu})}(t)\chi_{i_{\mu}}^{(\mu)}(q_{\mu})}
 \end{equation}
 \end{frame}
 
@@ -329,10 +329,10 @@ and:
 	\Psi(q_1, q_2, q_3, t) = \sum_{j_{12}=1}^{n_{12}}\sum_{j_3 = 1}^{n_3}A_{j_{12}j_3}(t)\textcolor{red}{\varphi^{(12)}_{j_{12}}(q_1,q_2,t)}\varphi^{(3)}_{j_{3}}(q_3,t)
 \end{equation*}
 \begin{equation*}
-	\textcolor{red}{\varphi^{(12)}_{j_{12}}(q_1,q_2,t) = \sum_{k_1 = 1}^{n_1}\sum_{k_2=1}^{n_2}B_{k_1,k_2}^{(12,j_{12})}\prod_{\mu=1}^2} \textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t)}
+	\textcolor{red}{\varphi^{(12)}_{j_{12}}(q_1,q_2,t) = \sum_{k_1 = 1}^{n_1}\sum_{k_2=1}^{n_2}B_{k_1,k_2}^{(12,j_{12})}(t)\prod_{\mu=1}^2} \textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t)}
 \end{equation*}
 \begin{equation*}
-	\textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t) = \sum_{i_{\mu}=1}^{N_{\mu}} c_{i_{\mu}}^{(\mu,k_{\mu})}\chi_{i_{\mu}}^{(\mu)}(q_{\mu})}
+	\textcolor{blue}{\xi_{k_{\mu}}^{(\mu)}(q_{\mu},t) = \sum_{i_{\mu}=1}^{N_{\mu}} c_{i_{\mu}}^{(\mu,k_{\mu})}(t)\chi_{i_{\mu}}^{(\mu)}(q_{\mu})}
 \end{equation*}}
 \end{minipage}
 \hfill
@@ -388,8 +388,8 @@ The second of these equations implies that we can obtain the updated SPFs simply
 \end{align}
 \begin{block}{}
   \begin{itemize}
-  \item KEO already in the desired form (\verb|TANA| and \verb|TNUM| software)
-  \item PES might be challenging to transform
+  \item<1-> KEO already in the desired form (\verb|TANA| and \verb|TNUM| software)
+  \item<2-> \textcolor{red}{PES might be challenging to transform}
   \end{itemize}
 \end{block}
 \end{frame}
@@ -613,7 +613,7 @@ This is a fully analytical SOP form, differentiable \emph{ad infinitum}, and tha
 \end{minipage}
 \hspace{1cm}
   \begin{minipage}{.1\linewidth}
-\includegraphics[width=3em]{appli.jpg}
+\includegraphics[width=3.3em]{appli.jpg}
 \end{minipage}
 
 \vspace{.5cm}
@@ -623,7 +623,7 @@ This is a fully analytical SOP form, differentiable \emph{ad infinitum}, and tha
  \end{minipage}
  \hspace{1cm}
    \begin{minipage}{.1\linewidth}
- \includegraphics[width=3em]{int_dan.pdf}
+ \includegraphics[width=2.7em, cfbox=black]{int_dan.pdf}
 \end{minipage}
   
 \vspace{.5cm}
@@ -633,14 +633,16 @@ This is a fully analytical SOP form, differentiable \emph{ad infinitum}, and tha
 \end{minipage}
 \hspace{1cm}
   \begin{minipage}{.1\linewidth}
-\includegraphics[width=3em]{mctdh_rev.png}
+\includegraphics[width=2.7em, cfbox=black]{mctdh_rev.png}
   \end{minipage}
 \end{frame}
 
 \begin{frame}
   \centering \Large
-  Thanks for your attention!  \\~\\
-  Questions?
+  Thanks for your attention!\\
+  \textcolor{blue}{Bedankt voor uw aandacht!}\\~\\
+  Questions?\\
+  \textcolor{blue}{Vragen?}
 \end{frame}
 
 \end{document}
